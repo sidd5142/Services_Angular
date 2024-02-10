@@ -1,0 +1,84 @@
+<div class="container">
+    <h1>Edit Student Information</h1>
+    <div class="form-container">
+        <form ng-controller="editCtrl" class="edit-form">
+            <div class="input-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" ng-model="Students.Name" />
+            </div>
+            <div class="input-group">
+                <label for="address">Address:</label>
+                <input type="text" id="address" ng-model="Students.Address" />
+            </div>
+            <div class="input-group">
+                <label for="email">Email:</label>
+                <input type="text" id="email" ng-model="Students.Email" />
+            </div>
+            <button type="submit" class="back-btn" ng-click="Back()">Back</button>
+        </form>
+    </div>
+</div>
+
+
+<style>
+    body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.form-container {
+    text-align: center;
+}
+
+.edit-form {
+    display: inline-block;
+    text-align: left;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.back-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.back-btn:hover {
+    background-color: #45a049;
+}
+
+</style>

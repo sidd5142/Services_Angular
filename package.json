@@ -1,0 +1,39 @@
+{
+  "name": "paytm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "@uirouter/angularjs": "^1.1.0",
+    "angular": "^1.8.2",
+    "angular-ui-router": "^1.0.28",
+    "angular-weblineindia-qrcode-scanner": "^1.0.0",
+    "angularjs-sweetalert2": "^1.0.0",
+    "bootstrap": "^3.4.1",
+    "bootstrap-icons": "^1.11.1",
+    "git-raw-commits": "^4.0.0",
+    "idempotent-babel-polyfill": "^7.4.4",
+    "jquery": "^3.5.1",
+    "ngx-bootstrap-icons": "^1.9.2",
+    "promise-polyfill": "8.3.0",
+    "qr-scanner": "^1.4.2",
+    "sweetalert": "^2.1.2",
+    "webcam": "^3.2.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sidd5142/Paytm_Clone.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sidd5142/Paytm_Clone/issues"
+  },
+  "homepage": "https://github.com/sidd5142/Paytm_Clone#readme",
+  "description": ""
+}
